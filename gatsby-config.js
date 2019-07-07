@@ -7,17 +7,17 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `cainrodgames`,
+    description: `Resume and Game Development Portfolio`,
     copyrights: '',
-    author: `@panr`,
+    author: `@martinmlDev`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'cainrodgames',
     defaultTheme: 'dark',
-    postsPerPage: 5,
+    postsPerPage: 7,
     showMenuItems: 2,
     menuMoreText: 'Show more',
     mainMenu: [
@@ -26,8 +26,12 @@ module.exports = {
         path: '/about',
       },
       {
-        title: 'Showcase',
-        path: '/showcase',
+        title: 'Resume',
+        path: '/resume',
+      },
+      {
+        title: 'GameDev',
+        path: '/GameDev',
       },
       {
         title: 'Example',
